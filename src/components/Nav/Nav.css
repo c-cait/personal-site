@@ -1,0 +1,19 @@
+.navbar{
+    padding: 10px 0px 0px 40px;
+}
+
+.nav-info{
+    font-size: 24px;
+    color: #9e7695;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+}
+
+.nav-info li {
+    display: inline;
+    cursor: pointer;
+}
+
