@@ -1,22 +1,43 @@
+.info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid blue;
+    height: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
 .cover-title{
     font-family: 'Raleway', sans-serif;
     font-size: 60px;
     color: #9e7695;
-    padding-left: 80px;
+    margin-bottom: 10px;
 }
 
 .cover-info{
     font-family: 'Raleway', sans-serif;
     font-size: 40px;
     color: #9e7695;
-    padding-left: 80px;
-    padding-top: 30px;
-    padding-bottom: 30px;
 }
 
 .cover-image{
     width: 90%;
 }
 
+.skills-info{
+    margin-top: 20px;
+    padding: 0px 40px 0px 40px;
+    background: lightgray;
+    height: 300px;
+}
 
-
+.skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(87, 20, 117);
+    font-size: 50px;
+    padding: 10px 0px 10px 0px;
+}
