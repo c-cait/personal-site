@@ -46,7 +46,7 @@ function Home() {
                         <FaNode/>
                         <SiMaterialUi/>
                     </div>
-                    <div className='skills'>
+                    <div className='skills two'>
                         <SiRedux/>
                         <SiPostgresql/>
                         <FaSass/>
