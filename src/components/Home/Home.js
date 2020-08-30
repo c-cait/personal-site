@@ -14,6 +14,8 @@ import {FaSass} from 'react-icons/fa';
 import {FiFigma} from 'react-icons/fi';
 import {SiPostman} from 'react-icons/si';
 import {GrHeroku} from 'react-icons/gr';
+import {BsCodeSlash} from 'react-icons/bs';
+
 
 function Home() {
 
@@ -38,6 +40,13 @@ function Home() {
             <Grid container direction='row' justify='center'>
                 <Grid item xs={12}>
                     <div className='skills-info'>
+                    <div className='test'>
+                    <div className='skills-title'>
+                        <BsCodeSlash className='slash'/>
+                        &nbsp;
+                        What I do
+                    </div>
+                    
                     <div className='skills'>
                         <FaReact/>
                         <TiHtml5/>
@@ -53,6 +62,7 @@ function Home() {
                         <FiFigma/>
                         <SiPostman/>
                         <GrHeroku/>
+                    </div>
                     </div>
                     </div>
                 </Grid>

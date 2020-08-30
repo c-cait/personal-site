@@ -1,18 +1,17 @@
 import React from 'react';
 import './Nav.css'
-import Grid from '@material-ui/core/Grid';
 
 function Nav() {
 
     return(
-        <Grid item className='navbar' xs={5}>
+        <div className='navbar'>
             <ul className='nav-info'>
-                <li>Home</li>
-                <li>About</li>
-                <li>Portfolio</li>
+                <li className='mar'>Home</li>
+                <li className='mar'>About</li>
+                <li className='mar'>Portfolio</li>
                 <li>Contact</li>
             </ul>
-        </Grid>
+        </div>
     )
 }
 

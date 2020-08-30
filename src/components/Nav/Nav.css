@@ -1,19 +1,26 @@
 .navbar{
-    padding: 10px 0px 0px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 20px 0px 20px 40px;
+    background: rgba(252, 252, 252, .75);
 }
 
 .nav-info{
     font-size: 24px;
     color: #9e7695;
     list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     font-family: 'Raleway', sans-serif;
+    padding: 0px;
+    margin: 0px;
 }
 
 .nav-info li {
     display: inline;
     cursor: pointer;
+}
+
+.mar{
+    margin-right: 20px;
 }
 
